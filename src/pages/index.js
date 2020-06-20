@@ -18,8 +18,6 @@ const DEFAULT_ZOOM = 2;
 const IndexPage = () => {
   const { destinations } = useDestinations();
 
-  console.log( 'destinations', destinations );
-
   /**
    * mapEffect
    * @description Fires a callback once the page renders
