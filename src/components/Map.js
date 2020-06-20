@@ -48,7 +48,7 @@ const Map = ( props ) => {
     <div className={mapClassName}>
       <BaseMap ref={mapRef} {...mapSettings}>
         { children }
-        { basemap && <TileLayer {...basemap} /> }
+        { basemap && <TileLayer {...basemap} noWrap={true} /> }
         <ZoomControl position="bottomright" />
       </BaseMap>
     </div>
