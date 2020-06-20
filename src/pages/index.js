@@ -53,7 +53,7 @@ const IndexPage = () => {
         }) }
       </Map>
 
-      <Container type="content" className="text-center home-start">
+      <Container type="content" className="text-center home-destinations">
         <h2>Destinations</h2>
         <ul>
           { destinations.map(( destination ) => {
@@ -61,6 +61,9 @@ const IndexPage = () => {
             return <li key={id}>{ name }</li>;
           }) }
         </ul>
+      </Container>
+
+      <Container type="content-full" className="text-center home-start">
         <h2>Want to create your own mapping app?</h2>
         <p>Run the following in your terminal!</p>
         <pre>

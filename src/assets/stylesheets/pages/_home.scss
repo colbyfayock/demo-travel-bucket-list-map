@@ -11,6 +11,7 @@
 
 }
 
+.home-destinations,
 .home-start {
 
   font-size: 1.2em;
@@ -53,6 +54,24 @@
 
   pre {
     margin-bottom: 1.5em;
+  }
+
+}
+
+.home-destinations {
+
+  font-size: 1.5em;
+  font-family: $font-display;
+
+}
+
+.home-start {
+
+  background-color: $amber-A400;
+
+  .note {
+    color: black;
+    font-style: italic;
   }
 
 }

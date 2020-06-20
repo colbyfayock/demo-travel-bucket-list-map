@@ -43,10 +43,17 @@ header {
   }
 
   p {
+
     font-size: 2em;
     font-weight: normal;
     font-family: $font-display;
     margin: 0;
+
+    &,
+    a {
+      color: $amber-A400;
+    }
+
   }
 
 }
