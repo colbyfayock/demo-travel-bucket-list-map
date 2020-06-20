@@ -1,14 +1,18 @@
 header {
 
   width: 100%;
-  color: $white;
-  background-color: $gatsby-purple;
+  background-color: $blue-grey-900;
+
+  &,
+  a {
+    color: $white;
+  }
 
   .container {
     display: flex;
     justify-content: space-between;
-    height: 2.5em;
-    line-height: 2.5em;
+    height: 5em;
+    line-height: 5em;
   }
 
   ul,
@@ -19,21 +23,29 @@ header {
   }
 
   ul {
+
     justify-content: flex-end;
     list-style: none;
+    font-family: $font-sans-serif-condensed;
     margin: 0;
     padding: 0;
+
+    a {
+      color: $blue-grey-100;
+      text-transform: uppercase;
+    }
+
   }
 
   a {
-    color: lighten($gatsby-purple, 50);
     text-decoration: none;
     padding: 0 .5em;
   }
 
   p {
-    font-size: 1.2em;
-    font-weight: bold;
+    font-size: 2em;
+    font-weight: normal;
+    font-family: $font-display;
     margin: 0;
   }
 
