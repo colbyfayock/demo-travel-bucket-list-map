@@ -34,7 +34,6 @@ const IndexPage = () => {
     defaultBaseMap: 'Mapbox',
     zoom: DEFAULT_ZOOM,
     mapEffect,
-    noWrap: true,
   };
 
   return (
